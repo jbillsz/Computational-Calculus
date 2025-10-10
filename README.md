@@ -1,9 +1,9 @@
-🧮 Computational Calculus
+# 🧮 Computational Calculus
 
 This project explores calculus through computation, bridging mathematical theory with modern automatic differentiation frameworks: PyTorch and JAX.
 It provides hands-on implementations for learners, researchers, and engineers, making derivatives, parametric analysis, and implicit differentiation interactive and reproducible.
 
-⚡ Features
+# ⚡ Features
 
 Basic Differentiation: Single-variable derivatives using autograd.
 
@@ -15,7 +15,7 @@ Implicit Differentiation: Solve F(x, y) = 0 numerically and compute dy/dx automa
 
 Integration-Ready Workflow: Structured QA-style checklists for gradient computation, ensuring clarity and reproducibility.
 
-📚 Calculus Concepts Covered
+# 📚 Calculus Concepts Covered
 
 ⚡ Power Rule: Derivatives of the form 
 

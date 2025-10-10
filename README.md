@@ -1,40 +1,47 @@
-# Computational-Calculus
-This project explores calculus through computation, bridging mathematical theory and modern automatic differentiation frameworks (PyTorch and JAX).
-It systematically implements:
+🧮 Computational Calculus
+
+This project explores calculus through computation, bridging mathematical theory with modern automatic differentiation frameworks: PyTorch and JAX.
+It provides hands-on implementations for learners, researchers, and engineers, making derivatives, parametric analysis, and implicit differentiation interactive and reproducible.
+
+⚡ Features
 
 Basic Differentiation: Single-variable derivatives using autograd.
 
 Vectorized Derivatives: Efficient computation for multiple points using torch.autograd.grad and jax.vmap.
 
-Parametric Equations: Derivatives of functions with respect to time, computing dy/dx for x(t) and y(t).
+Parametric Equations: Compute derivatives of functions w.r.t time (dy/dx for x(t) and y(t)).
 
-Implicit Differentiation: Solving F(x, y) = 0 numerically and computing dy/dx automatically.
+Implicit Differentiation: Solve F(x, y) = 0 numerically and compute dy/dx automatically.
 
-Integration-Ready Workflow: Structured QA-style checklists for gradient computation, ensuring reproducibility and clarity.
+Integration-Ready Workflow: Structured QA-style checklists for gradient computation, ensuring clarity and reproducibility.
 
-Key Features:
+📚 Calculus Concepts Covered
 
-Fully worked PyTorch and JAX implementations.
+⚡ Power Rule: Derivatives of the form 
 
-Step-by-step checklists and QA guides for gradient-based computation.
+🔗 Chain Rule: Handling nested functions and compositions
 
-Demonstrates numerical solution integration for implicit functions.
+✖️ Product & Quotient Rules: Derivatives of products and ratios of functions
 
-Designed for learners, researchers, and engineers to explore computational calculus interactively.
+📍 Turning Points / Extrema: Finding maxima, minima, and critical points
 
-Technical Skills Showcased:
+🌀 Parametric Differentiation: Compute dy/dx when x(t) and y(t) are functions of time
 
-PyTorch (autograd, vectorized gradients)
+#🧩 Implicit Differentiation: Solve F(x,y)=0 and compute dy/dx automatically
 
-JAX (grad, vmap, vectorized differentiation)
+# 🛠️ Technical Skills
 
-Numerical root-finding (scipy.optimize.fsolve)
+PyTorch: autograd, vectorized gradients
 
-Parametric and implicit differentiation
+JAX: grad, vmap, vectorized differentiation
 
-Systematic QA-driven workflow
+Numerical Methods: Root-finding using scipy.optimize.fsolve
 
-Use Cases / Applications:
+Differentiation Techniques: Parametric and implicit differentiation
+
+Workflow: Systematic QA-driven computational process
+
+# 🚀 Applications
 
 Physics, engineering, and AI simulations requiring derivatives
 
@@ -42,4 +49,22 @@ Parametric motion analysis (e.g., drones, projectiles)
 
 Computational modeling of physical systems with constraints
 
-Educational resource for learning differentiation programmatically
+Educational resource for programmatically learning calculus
+
+# 💡 Why This Project?
+
+This repository turns theory into computation:
+
+Learn calculus concepts interactively.
+
+Apply automatic differentiation for practical problems.
+
+Follow QA checklists to avoid common pitfalls in gradient computation.
+
+# 🔮 Future Extensions
+
+∫ Integration: Numerical and symbolic methods
+
+🌐 Multivariable Calculus: Partial derivatives, gradients, and Jacobians
+
+📈 Differential Equations: ODEs with numerical solvers and autograd

@@ -39,7 +39,8 @@ Numerical Methods: Root-finding using scipy.optimize.fsolve
 
 Differentiation Techniques: Parametric and implicit differentiation
 
-Workflow: Systematic QA-driven computational process
+Workflow: Systematic QA-driven computational process and building of Neural Networks.
+
 
 # 🚀 Applications
 
